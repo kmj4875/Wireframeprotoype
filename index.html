@@ -2,51 +2,99 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Jamie Kim | Bio Page</title>
+    <title> Q & A  </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/jquery.modal.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
   </head>
   <body>
+
+    <!-- Modals; Edit with care -->
+    <div id="img1" style="display:none;">
+
+
     <div class="container">
 
-      <section class="page-header"><h1><b>Jamie Kim</b></h1>
-        <h2 class="project-tagline">Student</h2>
+      <section class="page-header">
+        <h1 class="project-name">Welcome to Washington University in St. Louis! </h1>
+        <h2 class="project-tagline"> <i> Per Veritatem Vis </i> </h2>
+        <h2> Home Page</h2> 
+        <ul>
+          <li> Pictures of WashU and captions</li>
+          <li> brookings </li>
+          <li> Campus Map </li>
+          <li> Student Activities </li>
+        </ul>
+        
+        <h2>About</h2>
+        <ul>
+          <li> History </li>
+          <li> WashU's Reputation </li>
+         
+        </ul>
+        
+        <h2> Welcome New Students! </h2>
+       <ul>
+         <li>Housing <li>different houses and characteristics</li></li>
+        <li> Freshmen <li>things they should know </li></li>
+        <li> Transfer Students<li>things they should know </li></li>
+        <li> International Students <li>things they should know </li> </li>
+       </ul>
+       
+       <h2> What to do On Campus and Off Campus </h2>
+       <ul>
+         <li>On Campus <li>Activities</li><li>Clubs</li><li>Events/li></li>
+        <li> Off Campus <li>Restaurants </li><li>Renting Cars </li><li>Sight Seeing </li></li>
+
+       </ul>
+       
+        <h3> Contacts </h3>
+         
+      <form action="//formspree.io/kymn4875@gmail.com" method="POST">
+        <div>
+            <label>First and Last Name</label>
+            <input type="text" name="Name" value="Your Name">
+          </div>
+          <div>
+            <label>Your Email</label>
+            <input type="text" name="Email" value="Your Email">
+          </div>
+          <div>
+            <label>Your Question</label>
+            <input type="text" name="Comment" value="Your Comment" size="75">
+          </div>
+          <div>
+            <input type="submit" value="Send">
+          </div>
+          <input type="hidden" name="_next" value="http://jachisam.github.io/directoryStart/" />
+      </form>
+
+    </div>
+        
+        
+
       </section>
 
       <section class="main-content">
-         <p>I am from <a href="https://en.wikipedia.org/wiki/Queens" target="_blank">Queens, NY</a>, the most ethnically diverse place in the world. Although I have lived in New York since I was 7, I am originally from <a href="https://en.wikipedia.org/wiki/Changwon" target="_blank">Changwon, South Korea</a>. I am currently a freshman at Washington University in St.Louis, majoring in Psychology while pursuing my Premedical Studies.   </p>
-        <p>My hobbies include listening to music, meditating, and eating.  </p>
-        
-        
-&nbsp&nbsp&nbsp<img src="http://www.nyhabitat.com/blog/wp-content/uploads/2014/03/queens-borough-new-york-nyc-queensboro-bridge.jpg" alt="Queens, NY" style="width:152px;height:114px;">
-&nbsp&nbsp&nbsp&nbsp
-<img src="http://aff.bstatic.com/images/hotel/org/214/2146564.jpg" alt="Changwon, South Korea" style="width:120px;height:170.5px;">&nbsp&nbsp&nbsp&nbsp
-<img src="http://www.ghumakkar.com/wp-content/uploads/2011/05/DSC_1062.jpg" alt="WashU" style="width:170px;height:90px;">
-<font size="1"><figcaption>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspQueens, NY  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Changwon, South Korea &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp WUSTL</figcaption></font>
-        <h3 class="project-tagline"><hr>Education</hr></h3>
-        <u1><li><b><a href="http://www.sfponline.org/">Saint Francis Preparatory School</a></b></li></u1>
-          <p> 2011 to 2015
-        </p>
-        
-         <u1><li><b><a href="http://wustl.edu/">Washington University in St. Louis</a></b></li></u1>
-          <P>2015 to 2019 (expected)</P>
-          
-<h3 class="project-tagline"><hr>Social Networks</hr></h3>
-       <a href="https://www.linkedin.com/in/minjaekim" target="_blank"><img src="http://1.bp.blogspot.com/_dWhadljSsW4/TJ-hrok9XXI/AAAAAAAAACQ/SFOvQa-TQrw/S294/linkedin.gif" /></a>
-</form>
- <a href="https://www.facebook.com/jamie.kim.334" target="_blank"><img src="http://www.stathanasiuscarluke.org/wp-content/uploads/2015/10/facebook-icon-small.png" /></a>
-      <footer class="site-footer">
-        
-        
-        <h3 class="project-tagline"><hr>Contact Me</hr></h3>
-        <p><button type="button"><a href="mailto:minjae.kim@wustl.edu" target ="_blank"><b>Email</b> </a></button></p>
-        
-        <hr><p>Jamie Kim © 2016</p>
       
-     </footer>
+    
+      <a href="#img1" rel="modal:open" class="button"> Email Us </a>
+      </section>
 
-    </div>
-  </body>
-</html>
+      <footer class="site-footer">
+        <hr>
+        <p> Jamie Kim ©  2016 </p>
+      </footer>
+
+	
+	<!-- JavaScript; Do not edit below -->
+	<script src="js/jquery-1.12.0.min.js"></script>
+	<script src="js/jquery.modal.min.js"></script>
+	
+	</div>
+	</body>
+	</html>
+	
+
